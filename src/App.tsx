@@ -1,10 +1,44 @@
-import React from "react";
+import React, { JSX } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import ThingsToDo from "./pages/ThingsToDo";
+import PlacesToStay from "./pages/PlacesToStay";
+import FoodAndDrink from "./pages/FoodAndDrink";
+import TravelTips from "./pages/TravelTips";
+
+interface RoutesListType {
+  component: JSX.Element;
+  name?: string;
+  path: string;
+}
+
+const routesList: RoutesListType[] = [
+  { component: <Home />, name: "Home", path: "/" },
+  { component: <ThingsToDo />, name: "Things to Do", path: "/things-to-do" },
+  {
+    component: <PlacesToStay />,
+    name: "Places to Stay",
+    path: "/places-to-stay",
+  },
+  {
+    component: <FoodAndDrink />,
+    name: "Food and Drink",
+    path: "/food-and-drink",
+  },
+  { component: <TravelTips />, name: "Travel Tips", path: "/travel-tips" },
+];
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello from React + TypeScript 🎉</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {routesList.map((link) => (
+          <React.Fragment key={link.name}>
+            <Route path={link.path} element={link.component} />
+          </React.Fragment>
+        ))}
+      </Routes>
+    </BrowserRouter>
   );
 };
 
