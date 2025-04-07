@@ -1,0 +1,50 @@
+.mobileNav {
+  align-self: center;
+}
+
+.open {
+  position: absolute;
+  list-style: none;
+  background-color: #fff;
+  padding: 1rem;
+  right: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+  transition: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.closed {
+  display: none;
+}
+
+.open li a {
+  text-decoration: none;
+  color: black;
+}
+
+.open li {
+  margin: 0.5rem 0;
+}
+
+.desktopNav {
+  align-self: flex-end;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.navList li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navList li + li {
+  margin-left: 1rem;
+  content: attr(data-separator);
+}

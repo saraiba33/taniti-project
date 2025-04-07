@@ -1,10 +1,10 @@
 import React, { JSX } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import ThingsToDo from "./pages/ThingsToDo";
-import PlacesToStay from "./pages/PlacesToStay";
-import FoodAndDrink from "./pages/FoodAndDrink";
-import TravelTips from "./pages/TravelTips";
+import Home from "./pages/home/Home";
+import ThingsToDo from "./pages/thingToDo/ThingsToDo";
+import PlacesToStay from "./pages/placesToStay/PlacesToStay";
+import FoodAndDrink from "./pages/foodAndDrink/FoodAndDrink";
+import TravelTips from "./pages/travelTips/TravelTips";
 
 interface RoutesListType {
   component: JSX.Element;
