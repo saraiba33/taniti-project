@@ -9,7 +9,7 @@ interface NavLinkType {
   path: string;
 }
 
-const navLinks: NavLinkType[] = [
+export const navLinks: NavLinkType[] = [
   { name: "Home", path: "/" },
   { name: "Things to Do", path: "/things-to-do" },
   { name: "Places to Stay", path: "/places-to-stay" },

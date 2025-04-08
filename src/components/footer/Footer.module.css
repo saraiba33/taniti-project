@@ -1,0 +1,23 @@
+footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul a {
+  color: white;
+  text-decoration: none;
+}
+
+footer li {
+  margin: 0.5rem 0;
+}
+
+.islandTitle {
+  font-size: 2.5rem;
+}
