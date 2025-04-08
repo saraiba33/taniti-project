@@ -6,13 +6,6 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <footer>
-      <ul className={styles.navList}>
-        {navLinks.map((link) => (
-          <li key={link.name}>
-            <NavLink to={link.path}>{link.name}</NavLink>
-          </li>
-        ))}
-      </ul>
       <h2 className={styles.islandTitle}>Taniti</h2>
       <div>
         <h3>Visitor Center</h3>
@@ -25,6 +18,13 @@ const Footer = () => {
         <p>Phone Number: 123-456-7890</p>
         <p>Email: info@govisittaniti.com</p>
       </div>
+      <ul className={styles.navList}>
+        {navLinks.map((link) => (
+          <li key={link.name}>
+            <NavLink to={link.path}>{link.name}</NavLink>
+          </li>
+        ))}
+      </ul>
     </footer>
   );
 };

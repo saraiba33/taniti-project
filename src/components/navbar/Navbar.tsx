@@ -13,7 +13,7 @@ export const navLinks: NavLinkType[] = [
   { name: "Home", path: "/" },
   { name: "Things to Do", path: "/things-to-do" },
   { name: "Places to Stay", path: "/places-to-stay" },
-  { name: "Food & Drink", path: "/food-and-drink" },
+  { name: "Food and Drink", path: "/food-and-drink" },
   { name: "Travel Tips", path: "/travel-tips" },
 ];
 
