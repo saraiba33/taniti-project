@@ -1,6 +1,24 @@
 .mainHeader {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr auto;
   width: 100%;
+}
+
+.islandTitle {
+  font-size: 2.5em;
+  line-height: 1.1;
+  justify-self: center;
+  margin-left: 30px;
+}
+
+video {
+  width: 100%;
+  height: 20%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .islandTitle {
+    font-size: 3.2em;
+    justify-self: start;
+  }
 }

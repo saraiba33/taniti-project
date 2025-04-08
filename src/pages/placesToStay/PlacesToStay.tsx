@@ -4,7 +4,7 @@ import Header from "../../components/header/Header";
 const PlacesToStay = () => {
   return (
     <main>
-      <Header />
+      <Header src={"/videos/places-to-stay.mp4"} />
       <h1>Places to Stay</h1>
     </main>
   );
