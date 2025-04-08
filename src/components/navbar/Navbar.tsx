@@ -1,8 +1,8 @@
 import Hamburger from "hamburger-react";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { useMediaQuery } from "../../hooks/useMatchMedia";
 import styles from "./Navbar.module.css";
+import { useMediaQuery } from "../../hooks/useMatchMedia";
 
 interface NavLinkType {
   name: string;
