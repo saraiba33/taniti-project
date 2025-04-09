@@ -3,6 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import styles from "./Home.module.css";
 import { navLinks } from "../../components/navbar/Navbar";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -45,15 +46,15 @@ const Home = () => {
           {navLinks.map(
             (link) =>
               link.name !== "Home" && (
-                <a
+                <Link
                   className={
                     styles[link.name.toLowerCase().replace(/\s+/g, "-")]
                   }
-                  href={link.path}
+                  to={link.path}
                   key={link.name}
                 >
                   {link.name}
-                </a>
+                </Link>
               )
           )}
         </div>
