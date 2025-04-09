@@ -61,7 +61,7 @@ const Card = ({
         {price && <p className={styles.price}>{price}</p>}
       </div>
       {link && (
-        <a href={link} className={styles.button}>
+        <a href={link} target="_blank" className={styles.button}>
           {buttopnText}
         </a>
       )}

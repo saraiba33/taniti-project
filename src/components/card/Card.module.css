@@ -10,7 +10,7 @@
 
 .imageContainer img {
   max-width: 100%;
-  border-radius: 4px; /* Optional: Rounded corners for images */
+  border-radius: 4px;
 }
 
 .textContainer {
