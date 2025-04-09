@@ -36,9 +36,9 @@
   grid-template-rows: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-
   row-gap: 10px;
   width: 100%;
+  margin: 50px 0;
 }
 
 .things-to-do,
@@ -52,6 +52,30 @@
   height: 10rem;
   background-color: #e0f7fa;
   width: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.things-to-do {
+  background-image: url("https://images.pexels.com/photos/9223077/pexels-photo-9223077.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.places-to-stay {
+  background-image: url("https://images.pexels.com/photos/15923469/pexels-photo-15923469/free-photo-of-a-tropical-resort-on-maldives.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: center;
+}
+.food-and-drink {
+  background-image: url("https://images.pexels.com/photos/7148683/pexels-photo-7148683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: center;
+}
+.travel-tips {
+  background-image: url("https://images.pexels.com/photos/7365315/pexels-photo-7365315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: center;
 }
 
 @media only screen and (min-width: 1000px) {

@@ -1,5 +1,6 @@
 .mobileNav {
   align-self: center;
+  margin-right: 10px;
 
   .closed {
     display: none;
@@ -11,20 +12,20 @@
     padding: 1rem;
     right: 0;
     left: 0;
-    height: 32%;
+    height: 190px;
     width: 100%;
     font-size: 20px;
     margin: 0;
     z-index: 1;
-  }
 
-  .open li a {
-    text-decoration: none;
-    color: black;
-  }
+    li {
+      margin: 0.5rem 0;
+    }
 
-  .open li {
-    margin: 0.5rem 0;
+    li a {
+      text-decoration: none;
+      color: black;
+    }
   }
 }
 
@@ -36,15 +37,15 @@
     display: flex;
     list-style: none;
     margin-right: 30px;
-  }
 
-  .navList li a {
-    text-decoration: none;
-    color: black;
-  }
+    li a {
+      text-decoration: none;
+      color: black;
+    }
 
-  .navList li + li {
-    margin-left: 1rem;
-    content: attr(data-separator);
+    li + li {
+      margin-left: 1rem;
+      content: attr(data-separator);
+    }
   }
 }

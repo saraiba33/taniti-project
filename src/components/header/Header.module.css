@@ -16,6 +16,23 @@ video {
   height: 20%;
 }
 
+.breadcrumbsWrapper {
+  margin: 20px;
+  font-size: 20px;
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  a + a {
+    margin-left: 10px;
+  }
+  a + a::before {
+    content: ">";
+    margin-right: 10px;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
   .islandTitle {
     font-size: 3.2em;
