@@ -5,8 +5,6 @@
 }
 
 .islandTitle {
-  font-size: 2.5em;
-  line-height: 1.1;
   justify-self: center;
   margin-left: 30px;
 }
@@ -35,7 +33,10 @@ video {
 
 @media only screen and (min-width: 1000px) {
   .islandTitle {
-    font-size: 3.2em;
     justify-self: start;
+  }
+
+  .breadcrumbsWrapper {
+    margin: 20px 50px;
   }
 }

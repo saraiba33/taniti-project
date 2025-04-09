@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  --special-font: "Caveat", cursive;
 }
 
 body {
@@ -10,4 +12,14 @@ body {
   min-height: 100vh;
 }
 
+h1 {
+  font-family: var(--special-font);
+  font-size: 4rem;
+  line-height: 4rem;
+}
 
+@media only screen and (min-width: 1000px) {
+  h1 {
+    font-size: 5rem;
+  }
+}

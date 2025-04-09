@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <h2 className={styles.islandTitle}>Taniti</h2>
       <div>
-        <h3>Visitor Center</h3>
+        <h4>Visitor Center</h4>
         <p>1234 Paradise Lane</p>
         <p>Taniti Island, Tropical Ocean</p>
         <p>ZIP Code: 98765</p>

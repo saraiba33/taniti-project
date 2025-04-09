@@ -9,7 +9,7 @@ const ThingsToDo = () => {
     <>
       <Header src={"/videos/things-to-do.mp4"} />
       <main>
-        <h1>Things to Do on Taniti Island</h1>
+        <h1>Things to Do</h1>
         <section className={styles.textContainer}>
           <p>
             Taniti Island offers the perfect mix of adventure, relaxation, and

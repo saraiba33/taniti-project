@@ -2,9 +2,8 @@ main {
   padding: 20px;
 }
 
-.textContainer,
 h1 {
-  margin: 0 40px;
+  margin: 0;
 }
 
 .cardsContainer {
@@ -19,10 +18,13 @@ h1 {
   }
 }
 
-@media only screen and (min-width: 100px) {
+@media only screen and (min-width: 1000px) {
   .cardsContainer {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
+  }
+  main {
+    padding: 20px 50px;
   }
 }
