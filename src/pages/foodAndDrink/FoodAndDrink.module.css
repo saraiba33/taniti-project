@@ -1,0 +1,102 @@
+.foodAndDrink {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  margin-bottom: 50px;
+
+  h1 {
+    height: 50px;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: black;
+  }
+
+  p {
+    margin: 0 0 20px 0;
+  }
+
+  img {
+    justify-self: center;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .bartender {
+    position: relative;
+    top: -100px;
+    clip-path: inset(100px 0 100px 0 round 10px);
+    -webkit-clip-path: inset(110px 0 110px 0 round 10px);
+    border-radius: 20px;
+    width: 400px;
+  }
+
+  .marketView {
+    position: relative;
+    top: -110px;
+    clip-path: inset(100px 0 100px 0 round 10px);
+    -webkit-clip-path: inset(120px 0 140px 0 round 10px);
+    border-radius: 20px;
+    width: 400px;
+  }
+
+  .traditionalFood {
+    position: relative;
+    top: -70px;
+    clip-path: inset(100px 0 100px 0 round 10px);
+    -webkit-clip-path: inset(120px 0 140px 0 round 10px);
+    border-radius: 20px;
+    width: 400px;
+  }
+
+  .americanFood {
+    position: relative;
+    top: -30px;
+    clip-path: inset(50px 0 50px 0 round 10px);
+    border-radius: 20px;
+    width: 350px;
+  }
+
+  section:not(.intro) {
+    display: grid;
+    grid-template-rows: 400px;
+  }
+
+  section div {
+    line-height: 2.5;
+  }
+
+  .snacksSection div {
+    line-height: 2.5;
+  }
+}
+
+.intro {
+  grid-column: span 2;
+}
+
+@media (min-width: 1000px) {
+  .foodAndDrink {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+
+    .snacksSection div {
+      line-height: 1.5;
+    }
+
+    section div {
+      line-height: 2.5;
+    }
+  }
+}

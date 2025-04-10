@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { useMediaQuery } from "../../hooks/useMatchMedia";
 import styles from "./Navbar.module.css";
 
-interface NavLinkType {
+export interface NavLinkType {
   name: string;
   path: string;
 }
