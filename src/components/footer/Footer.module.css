@@ -24,6 +24,25 @@ footer li {
   margin: 0;
 }
 
+.backToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #00796b;;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.backToTopButton:hover {
+  background-color: #00aa96;
+}
+
 @media only screen and (min-width: 1000px) {
   footer {
     display: flex;
