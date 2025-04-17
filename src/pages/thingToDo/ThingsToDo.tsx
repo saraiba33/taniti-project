@@ -122,7 +122,7 @@ const ThingsToDo = () => {
             />
 
             <Card
-              title="Valcano ATV Tour"
+              title="Volcano ATV Tour"
               imageSrc="https://dynamic-media.tacdn.com/media/photo-o/2e/fe/0e/58/caption.jpg?w=1400&h=1000&s=1"
               imageAlt="Valcano ATV"
               link="https://www.viator.com/tours/Heimaey-Island/Volcano-ATV-Tour/d50336-149610P1"

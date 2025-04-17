@@ -111,7 +111,7 @@ const PlacesToStay = () => {
               buttopnText="Book Now"
               rating={4.6}
               reviews="20"
-              price="$148"
+              price="$148 per night"
             />
 
             <Card
@@ -124,7 +124,7 @@ const PlacesToStay = () => {
               buttopnText="Book Now"
               rating={4.0}
               reviews="124"
-              price="$78"
+              price="$78 per night"
             />
           </div>
         </section>
